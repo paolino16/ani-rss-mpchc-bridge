@@ -13,3 +13,13 @@
 5. 安装此版本一次后，油猴可通过 metadata 地址检查更新。后续发布必须同步提升 .user.js 和 .meta.js 的 @version。
 
 本次改动已通过 JavaScript 语法检查；尚未执行完整的本地播放测试。
+
+## 海报右键编辑（独立脚本）
+
+[安装海报右键编辑脚本](https://raw.githubusercontent.com/paolino16/ani-rss-mpchc-bridge/main/ani-rss-poster-right-click-edit.user.js)
+
+- 右键海报直接打开对应订阅的编辑窗口，不自动保存或修改订阅。
+- 左键沿用 ANI-RSS 当前设置；左键播放列表的设置会保留。
+- Shift + 右键保留浏览器菜单；海报菜单按钮和评分按钮不受影响。
+- 适配当前 AniCoverView 海报布局，通过菜单的 ARIA 关联准确定位订阅。
+- 可以和 MPC-HC 桥接脚本一起安装，支持 GitHub 自动检查更新。
